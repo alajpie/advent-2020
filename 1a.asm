@@ -1,9 +1,12 @@
 ; Advent of Code 2020
+;   in x86-64 assembly for Linux
 ; Day 1 (part 1)
-; by Alicja Piecha
+;   by Alicja Piecha
 
 ; Place input in 1.in (<= 4096 bytes)
 ; nasm -f elf64 1a.asm && ld 1a.o -o 1a && ./1a
+
+; THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED but it does work on my input so idk.
 
 global _start
 section .data
